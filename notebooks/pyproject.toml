@@ -8,5 +8,7 @@ dependencies = [
     "aiohttp>=3.13.3",
     "azure-identity>=1.25.1",
     "azure-search-documents>=11.6.0",
+    "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
 ]

@@ -1,0 +1,7 @@
+[
+    {
+        "algorithm_name": "myHnsw",
+        "vector_profile_name": "vector-profile-lore",
+        "vector_algorithm_name": "myHnsw"
+    }
+]
