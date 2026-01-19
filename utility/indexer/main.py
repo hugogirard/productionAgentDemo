@@ -29,7 +29,7 @@ def main():
         
         logging.info(f"Creating/Updating index: {idx['name']}")
 
-        url = f'{search_endpoint}/indexes(\'{idx['name']}\')?api-version={search_api_version}'
+        url = f"{search_endpoint}/indexes('{idx['name']}')?api-version={search_api_version}"
 
         response = requests.put(url=url,headers=headers,data=json.dumps(idx))
 
