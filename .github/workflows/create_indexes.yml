@@ -22,7 +22,7 @@ jobs:
             - name: Install dependencies
               run: |
                   uv sync
-              working-directory: utility/index
+              working-directory: utility/indexer
 
             - name: Run index creation script
               env:
@@ -32,4 +32,4 @@ jobs:
                   SEARCH_API_VERSION: ${{ secrets.SEARCH_API_VERSION }}
               run: |
                   python main.py
-              working-directory: utility/index
+              working-directory: utility/indexer
