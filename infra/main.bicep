@@ -130,6 +130,7 @@ module web 'modules/webapp.bicep' = {
     appServiceLocation: appServiceLocation
     appServicePlanResourceName: 'asp-agent-api-${suffix}'
     loreAgentWebAppName: 'lore-agent-${suffix}'
+    mageApiWebAppName: 'mage-api-${suffix}'
   }
 }
 
@@ -137,4 +138,5 @@ output resourceGroupName string = rg.name
 output acrRegistryName string = registry.outputs.name
 output foundryResourceName string = foundry.outputs.resourceName
 output loreAgentResourceName string = web.outputs.loreAgentResourceName
+output webMageApiResourceName string = web.outputs.webMageApiResourceName
 output chatCompletionModelDeployment string = chatCompleteionDeploymentName
