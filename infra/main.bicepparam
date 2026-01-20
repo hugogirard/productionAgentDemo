@@ -27,3 +27,5 @@ param embeddingModelProperties = {
 }
 
 param embeddingModelSkuCapacity = 150
+
+param appServiceLocation = 'canadaeast'

@@ -3,6 +3,10 @@ targetScope = 'subscription'
 @description('The location of the resource group')
 param resourceLocation string
 
+@description('The location for the app service plan if different from the resource group')
+param appServiceLocation string
+
+@description('The name of the resource group')
 param resourceGroupName string
 
 @description('The model for the chat completion')
@@ -116,3 +120,21 @@ module embeddingnModel 'modules/model-deployment.bicep' = {
     chatCompletionModel // To avoid deployment concurrency and fail the bicep
   ]
 }
+
+/*******************************
+* Workload resources
+********************************/
+module web 'modules/webapp.bicep' = {
+  scope: rg
+  params: {
+    appServiceLocation: appServiceLocation
+    appServicePlanResourceName: 'asp-agent-api-${suffix}'
+    loreAgentWebAppName: 'lore-agent-${suffix}'
+  }
+}
+
+output resourceGroupName string = rg.name
+output acrRegistryName string = registry.outputs.name
+output foundryResourceName string = foundry.outputs.resourceName
+output loreAgentResourceName string = web.outputs.loreAgentResourceName
+output chatCompletionModelDeployment string = chatCompleteionDeploymentName
