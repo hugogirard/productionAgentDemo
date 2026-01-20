@@ -39,6 +39,7 @@ jobs:
                   echo "foundryResourceName=$(jq -r '.foundryResourceName.value' outputs.json)" >> $GITHUB_OUTPUT
                   echo "loreAgentResourceName=$(jq -r '.loreAgentResourceName.value' outputs.json)" >> $GITHUB_OUTPUT
                   echo "chatCompletionModelDeployment=$(jq -r '.chatCompletionModelDeployment.value' outputs.json)" >> $GITHUB_OUTPUT
+                  echo "webMageApiResourceName=$(jq -r '.webMageApiResourceName.value' outputs.json)" >> $GITHUB_OUTPUT
 
             - name: Set secrets using gh CLI
               env:
@@ -49,3 +50,4 @@ jobs:
                   gh secret set FOUNDRY_RESOURCE_NAME --body "${{ steps.createResources.outputs.foundryResourceName }}"
                   gh secret set LORE_AGENT_RESOURCE_NAME --body "${{ steps.createResources.outputs.loreAgentResourceName }}"
                   gh secret set CHAT_COMPLETION_MODEL_DEPLOYMENT --body "${{ steps.createResources.outputs.chatCompletionModelDeployment }}"
+                  gh secret set WEB_MAGEAPI_RESOURCE_NAME --body "${{ steps.createResources.outputs.webMageApiResourceName }}"
