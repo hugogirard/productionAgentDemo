@@ -145,6 +145,7 @@ module rbac 'modules/rbac.bicep' = {
 output resourceGroupName string = rg.name
 output acrRegistryName string = registry.outputs.name
 output foundryResourceName string = foundry.outputs.resourceName
+output foundryProjectEndpoint string = foundry.outputs.projectEndpoint
 output loreAgentResourceName string = web.outputs.loreAgentResourceName
 output webMageApiResourceName string = web.outputs.webMageApiResourceName
 output chatCompletionModelDeployment string = chatCompleteionDeploymentName
