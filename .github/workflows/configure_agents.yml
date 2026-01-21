@@ -1,10 +1,10 @@
-name: Configure Agents
+name: Configure Foundry Agents
 
 on:
   workflow_dispatch:
 
 jobs:
-  create-indexes:
+  configure-foundry-agents:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +29,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Run index creation script
+      - name: Run agents creation script
         env:
           # Add your environment variables here
           AZURE_AI_FOUNDRY_ENDPOINT: ${{ secrets.FOUNDRY_PROJECT_ENDPOINT }}
