@@ -148,4 +148,5 @@ output foundryResourceName string = foundry.outputs.resourceName
 output foundryProjectEndpoint string = foundry.outputs.projectEndpoint
 output loreAgentResourceName string = web.outputs.loreAgentResourceName
 output webMageApiResourceName string = web.outputs.webMageApiResourceName
+output webApiMageEndpoint string = web.outputs.webApiMageEndpoint
 output chatCompletionModelDeployment string = chatCompleteionDeploymentName

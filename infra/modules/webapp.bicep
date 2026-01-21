@@ -58,8 +58,17 @@ resource webMageAPI 'Microsoft.Web/sites@2024-11-01' = {
   }
 }
 
+resource appSettings 'Microsoft.Web/sites/config@2024-11-01' = {
+  name: 'appsettings'
+  parent: webMageAPI
+  properties: {
+    SERVER_URL: 'https://${webMageAPI.properties.defaultHostName}'
+  }
+}
+
 output loreAgentResourceName string = webAgent.name
 output webMageApiResourceName string = webMageAPI.name
+output webApiMageEndpoint string = 'https://${webMageAPI.properties.defaultHostName}'
 output principalIds array = [
   webAgent.identity.principalId
   webMageAPI.identity.principalId
