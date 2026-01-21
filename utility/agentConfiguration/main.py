@@ -54,6 +54,7 @@ async def main():
             await agent.configure(project,chat_completion_model)
         except Exception as e:
             print(f"Error configuring {agent.__name__}")
+            print(f"Exception: {e}")
 
     print(len(agents))
 
