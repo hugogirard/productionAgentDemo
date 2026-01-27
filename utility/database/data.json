@@ -1,0 +1,466 @@
+[
+    {
+        "crimeName": "Theft of Sweetrolls from Guards",
+        "city": "Whiterun",
+        "suspectName": "Bjorn Iron-Fist",
+        "reward": 1500,
+        "description": "Nord male warrior with iron armor and a battle-worn face",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Theft of Ancient Artifacts",
+        "city": "Winterhold",
+        "suspectName": "Elara Moonweaver",
+        "reward": 800,
+        "description": "High Elf female mage in blue robes with enchanted staff",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Theft of Companions' Mead Hall Keys",
+        "city": "Solitude",
+        "suspectName": "Shadow-Step",
+        "reward": 2000,
+        "description": "Khajiit male rogue in dark leather armor with twin daggers",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Arson of Temple",
+        "city": "Riften",
+        "suspectName": "Greta Flame-Hand",
+        "reward": 1200,
+        "description": "Nord female pyromancer in red mage robes with burn scars",
+        "crimeType": "arson"
+    },
+    {
+        "crimeName": "Grand Larceny",
+        "city": "Markarth",
+        "suspectName": "Talen-Jei",
+        "reward": 600,
+        "description": "Argonian male thief in studded leather armor with lockpicks",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Illegal Cheese Wheel Hoarding",
+        "city": "Windhelm",
+        "suspectName": "Ulfgar the Unbreakable",
+        "reward": 900,
+        "description": "Nord male berserker with steel plate armor and warhammer",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Poisoning of Town Well",
+        "city": "Falkreath",
+        "suspectName": "Malina Viper-Tongue",
+        "reward": 1100,
+        "description": "Imperial female alchemist in green robes carrying vials",
+        "crimeType": "poisoning"
+    },
+    {
+        "crimeName": "Robbery of Merchant Caravan",
+        "city": "Dawnstar",
+        "suspectName": "Gralnok gro-Mash",
+        "reward": 750,
+        "description": "Orc male bandit in orcish armor with a greatsword",
+        "crimeType": "robbery"
+    },
+    {
+        "crimeName": "Bucket Theft from Guards' Heads",
+        "city": "Solitude",
+        "suspectName": "Sven the Sly",
+        "reward": 1800,
+        "description": "Nord male rogue in hooded leather armor with rope",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Theft of Dragon Claw",
+        "city": "Riverwood",
+        "suspectName": "Faendal Swift-Arrow",
+        "reward": 650,
+        "description": "Wood Elf male archer in hide armor with hunting bow",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Destruction of Property",
+        "city": "Markarth",
+        "suspectName": "Thora Stone-Breaker",
+        "reward": 400,
+        "description": "Nord female warrior with steel armor and pickaxe",
+        "crimeType": "propertyDamage"
+    },
+    {
+        "crimeName": "Illegal Daedric Worship",
+        "city": "Winterhold",
+        "suspectName": "Morvath the Cursed",
+        "reward": 1600,
+        "description": "Dark Elf male cultist in daedric robes with ritual dagger",
+        "crimeType": "heresy"
+    },
+    {
+        "crimeName": "Theft from Palace",
+        "city": "Solitude",
+        "suspectName": "Vex the Nimble",
+        "reward": 1000,
+        "description": "Imperial female thief in black leather with lock-picking tools",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Stealing Arrows from Knees",
+        "city": "Whiterun",
+        "suspectName": "Ragnar Ice-Veins",
+        "reward": 700,
+        "description": "Nord male barbarian in fur armor with steel axe",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Forgery of Documents",
+        "city": "Riften",
+        "suspectName": "Quintus Navale",
+        "reward": 450,
+        "description": "Imperial male scribe in fine clothes with quill and ink",
+        "crimeType": "forgery"
+    },
+    {
+        "crimeName": "Horse Theft",
+        "city": "Windhelm",
+        "suspectName": "J'zargo the Swift",
+        "reward": 300,
+        "description": "Khajiit male in traveler's clothes with rope and saddle",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Horker Tusk Smuggling",
+        "city": "Dawnstar",
+        "suspectName": "Hilda Iron-Hand",
+        "reward": 1250,
+        "description": "Nord female warrior in banded iron armor with mace",
+        "crimeType": "smuggling"
+    },
+    {
+        "crimeName": "Illegal Fork Collection",
+        "city": "Winterhold",
+        "suspectName": "Faralda Storm-Caller",
+        "reward": 950,
+        "description": "High Elf female mage in master robes with lightning in hands",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Theft of Amulet of Mara",
+        "city": "Riften",
+        "suspectName": "Sapphire",
+        "reward": 800,
+        "description": "Nord female thief in dark leather with jeweled dagger",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Goat Theft and Relocation",
+        "city": "Markarth",
+        "suspectName": "Madanach the King",
+        "reward": 1700,
+        "description": "Breton male prisoner in ragged clothes with shiv",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Arson of Mill",
+        "city": "Riverwood",
+        "suspectName": "Sven Fire-Heart",
+        "reward": 600,
+        "description": "Nord male bard in common clothes with torch and lute",
+        "crimeType": "arson"
+    },
+    {
+        "crimeName": "Stolen Broom Racing",
+        "city": "Solitude",
+        "suspectName": "Erikur's Bane",
+        "reward": 1500,
+        "description": "Imperial male mercenary in steel armor with bound rope",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Theft of Spell Tomes",
+        "city": "Winterhold",
+        "suspectName": "Brelyna Maryon",
+        "reward": 700,
+        "description": "Dark Elf female apprentice in novice robes with books",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Theft from Blacksmith",
+        "city": "Whiterun",
+        "suspectName": "Ulfberth War-Bear",
+        "reward": 1100,
+        "description": "Nord male smith in leather apron with smith's hammer",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Illegal Enchanting",
+        "city": "Markarth",
+        "suspectName": "Calcelmo's Shadow",
+        "reward": 650,
+        "description": "Breton male enchanter in fine robes with soul gems",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Assault on Jarl",
+        "city": "Windhelm",
+        "suspectName": "Brunwulf Free-Winter",
+        "reward": 2500,
+        "description": "Nord male rebel in studded armor with sword and shield",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Theft from Temple of Kynareth",
+        "city": "Whiterun",
+        "suspectName": "Jenassa the Silent",
+        "reward": 900,
+        "description": "Dark Elf female mercenary in ebony armor with dual swords",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Poisoning of Nobility",
+        "city": "Solitude",
+        "suspectName": "Vittoria Vici's Killer",
+        "reward": 2200,
+        "description": "Imperial male assassin in dark brotherhood armor with poison",
+        "crimeType": "murder"
+    },
+    {
+        "crimeName": "Theft of Honningbrew Mead",
+        "city": "Whiterun",
+        "suspectName": "Sabjorn",
+        "reward": 400,
+        "description": "Nord male brewer in merchant clothes with mead bottles",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Robbery of Courier",
+        "city": "Dawnstar",
+        "suspectName": "Astrid's Hand",
+        "reward": 800,
+        "description": "Redguard female assassin in leather armor with poisoned blade",
+        "crimeType": "robbery"
+    },
+    {
+        "crimeName": "Destruction of Shrine",
+        "city": "Morthal",
+        "suspectName": "Falion the Heretic",
+        "reward": 1000,
+        "description": "Redguard male wizard in purple robes with ritual items",
+        "crimeType": "heresy"
+    },
+    {
+        "crimeName": "Grand Theft",
+        "city": "Riften",
+        "suspectName": "Mercer Frey",
+        "reward": 1800,
+        "description": "Breton male master thief in guild armor with skeleton key",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Assault with Deadly Weapon",
+        "city": "Windhelm",
+        "suspectName": "Rolff Stone-Fist",
+        "reward": 550,
+        "description": "Nord male thug in hide armor with iron sword",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Theft of East Empire Goods",
+        "city": "Solitude",
+        "suspectName": "Blood-Horker Captain",
+        "reward": 1200,
+        "description": "Nord male pirate in studded leather with cutlass",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Assault on Farmer",
+        "city": "Rorikstead",
+        "suspectName": "Lemkil the Cruel",
+        "reward": 650,
+        "description": "Nord male farmer in common clothes with pitchfork",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Illegal Werewolf Activity",
+        "city": "Whiterun",
+        "suspectName": "Vilkas Moon-Born",
+        "reward": 1400,
+        "description": "Nord male warrior in wolf armor with silver greatsword",
+        "crimeType": "heresy"
+    },
+    {
+        "crimeName": "Theft of Nordic Relics",
+        "city": "Windhelm",
+        "suspectName": "Aventus Aretino",
+        "reward": 500,
+        "description": "Nord male child in tattered robes with ancient amulet",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Arson of Stables",
+        "city": "Riften",
+        "suspectName": "Grelka Fire-Eyes",
+        "reward": 700,
+        "description": "Nord female warrior in steel armor with fire spells",
+        "crimeType": "arson"
+    },
+    {
+        "crimeName": "Skooma-Fueled Lute Playing",
+        "city": "Solitude",
+        "suspectName": "Cicero the Mad",
+        "reward": 1600,
+        "description": "Imperial male jester in motley clothes with sharp dagger",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Theft from Dwemer Ruins",
+        "city": "Markarth",
+        "suspectName": "Aicantar",
+        "reward": 850,
+        "description": "High Elf male scholar in fine robes with dwemer artifacts",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Excessive Cabbage Consumption",
+        "city": "Dawnstar",
+        "suspectName": "Frida Cold-Blood",
+        "reward": 450,
+        "description": "Nord female thug in fur armor with club",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Salmon Slapping Contest Gone Wrong",
+        "city": "High Hrothgar",
+        "suspectName": "Klimmek's Rival",
+        "reward": 400,
+        "description": "Nord male bandit in fur armor with iron mace",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Illegal Potato Juggling",
+        "city": "Markarth",
+        "suspectName": "Thonar Silver-Blood",
+        "reward": 1700,
+        "description": "Nord male noble in fine clothes with silver dagger",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Painting Nazeem Blue",
+        "city": "Markarth",
+        "suspectName": "Nepos the Nose",
+        "reward": 650,
+        "description": "Breton male elder in fine robes with walking stick",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Inappropriate Cloud District Comments",
+        "city": "Windhelm",
+        "suspectName": "Wuunferth the Unliving",
+        "reward": 1200,
+        "description": "Nord male court wizard in black robes with staff",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Stealing Lydia's Burden Capacity",
+        "city": "Riften",
+        "suspectName": "Hemming Black-Briar",
+        "reward": 800,
+        "description": "Nord male noble in fine leather with jeweled dagger",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Extreme Cheese Wheel Rolling",
+        "city": "Solitude",
+        "suspectName": "Roggvir's Avenger",
+        "reward": 950,
+        "description": "Nord male warrior in steel armor with battle axe",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Stealing Knees from Adventurers",
+        "city": "Winterhold",
+        "suspectName": "J'zhar's Killer",
+        "reward": 750,
+        "description": "Khajiit male sorcerer in apprentice robes with fire spells",
+        "crimeType": "assault"
+    },
+    {
+        "crimeName": "Inappropriate Bucket Usage",
+        "city": "Whiterun",
+        "suspectName": "Severio Pelagia's Rival",
+        "reward": 550,
+        "description": "Imperial male worker in farm clothes with pitchfork",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Excessive Arrow Hoarding",
+        "city": "Dawnstar",
+        "suspectName": "Bandit Chief Krev",
+        "reward": 700,
+        "description": "Orc male bandit leader in fur armor with warhammer",
+        "crimeType": "pettyTheft"
+    },
+    {
+        "crimeName": "Unauthorized Dragon Soul Absorption",
+        "city": "Solitude",
+        "suspectName": "Pantea's Rival",
+        "reward": 600,
+        "description": "Nord female bard in colorful clothes with lute weapon",
+        "crimeType": "heresy"
+    },
+    {
+        "crimeName": "Fishy Stick Trafficking",
+        "city": "Falkreath",
+        "suspectName": "Dengeir's Conspiracy",
+        "reward": 1100,
+        "description": "Nord male elder in dark robes with ritual dagger",
+        "crimeType": "smuggling"
+    },
+    {
+        "crimeName": "Illegal Sweetroll Black Market",
+        "city": "Riften",
+        "suspectName": "Bolli's Assassin",
+        "reward": 650,
+        "description": "Imperial male killer in leather armor with fishing spear",
+        "crimeType": "smuggling"
+    },
+    {
+        "crimeName": "Inappropriate Frostbite Spider Dating",
+        "city": "Solitude",
+        "suspectName": "Falk Firebeard's Enemy",
+        "reward": 550,
+        "description": "Breton male mage in blue robes with frost spells",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Mammoth Cheese Heist",
+        "city": "Dawnstar",
+        "suspectName": "Beitild's Rival",
+        "reward": 700,
+        "description": "Nord female mine owner in work clothes with pickaxe",
+        "crimeType": "grandTheft"
+    },
+    {
+        "crimeName": "Calipers Collection Obsession",
+        "city": "Windhelm",
+        "suspectName": "Angrenor Once-Honored",
+        "reward": 600,
+        "description": "Nord male beggar in tattered armor with rusty sword",
+        "crimeType": "minorOffense"
+    },
+    {
+        "crimeName": "Inappropriate Daedric Artifact Show-and-Tell",
+        "city": "Solitude",
+        "suspectName": "Potema's Servant",
+        "reward": 1500,
+        "description": "Nord undead male draugr in ancient armor with frost magic",
+        "crimeType": "heresy"
+    },
+    {
+        "crimeName": "Pickpocket Training Without License",
+        "city": "Markarth",
+        "suspectName": "Forsworn Conspirator",
+        "reward": 1400,
+        "description": "Breton male warrior in forsworn armor with bone bow",
+        "crimeType": "minorOffense"
+    }
+]
