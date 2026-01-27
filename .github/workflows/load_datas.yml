@@ -87,14 +87,15 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-        working-directory: utility/indexer
+        working-directory: utility/database
 
       - name: Run index creation script
         env:
           # Add your environment variables here
-          SEARCH_ENDPOINT: ${{ secrets.SEARCH_ENDPOINT }}
-          SEARCH_API_KEY: ${{ secrets.SEARCH_API_KEY }}
-          SEARCH_API_VERSION: ${{ secrets.SEARCH_API_VERSION }}
+          COSMOS_DB_CNX_STRING: ${{ secrets.COSMOS_CONNECTION_STRING }}
+          DATABASE_ID: ${{ secrets.SKYRIM_DATABASE_NAME }}
+          CONTAINER_ID: ${{ secrets.SKYRIM_CONTAINE_NAME }}
+          PARTITION_KEY: "crimeType"
         run: |
           uv run python main.py
-        working-directory: utility/indexer
+        working-directory: utility/database

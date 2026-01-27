@@ -71,6 +71,7 @@ jobs:
                   gh secret set CHAT_COMPLETION_MODEL_DEPLOYMENT --body "${{ steps.createResources.outputs.chatCompletionModelDeployment }}"
                   gh secret set WEB_MAGEAPI_RESOURCE_NAME --body "${{ steps.createResources.outputs.webMageApiResourceName }}"
                   gh secret set WEB_API_MAGE_ENDPOINT --body "${{ steps.createResources.outputs.webApiMageEndpoint }}"
+                  gh secret set COSMOS_CONNECTION_STRING --body "${{ steps.createResources.outputs.cosmosConnectionString }}"
                   gh secret set SKYRIM_DATABASE_NAME --body "${{ steps.createResources.outputs.skyrimDatabaseName }}"
                   gh secret set SKYRIM_CONTAINE_NAME --body "${{ steps.createResources.outputs.skyrimContaineName }}"
                   gh secret set COSMOSDB_ACCOUNT_NAME --body "${{ steps.createResources.outputs.cosmosDbAccountName }}"
